@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/StyleSheet.css" runat="server" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="width=100%" height="100%">
+    <form id="form1" runat="server">
+        <div class="header">
+            <img src="Image/logo2.jpg" width="150px" height="150px" title="Hospital Information System" alt="logo" onclick="Main.aspx" style="display:inline;"/>
+            <h1 style="display:inline;">Hospital Information System</h1>
+        </div>
+
+        <div class="topnav">
+            <a href="Main.aspx">Home</a>
+            <a href ="registration.aspx">Registration</a>
+            <a href="Pharmacy.aspx">Pharmacy</a>
+            <a href="Procurement.aspx">Procurement</a>
+            <a href="Inventory.aspx">Inventory</a>
+        </div>
+
+        <hr />
+
+        <div style="width:100%">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">    
+            </asp:ContentPlaceHolder>
+        </div>
+
+       <hr />
+
+        <div class="footer" style="text-align:right;">
+            <asp:SiteMapPath ID="smp" runat="server"></asp:SiteMapPath>
+        </div>
+
+        <asp:SiteMapDataSource ID="smds" runat="server" />
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Main.aspx" title="Home"  description="">
+      
+      <siteMapNode url="Pharmacy.aspx" title="Pharmacy"  description="">
+        <siteMapNode url="IssueOnDemand.aspx" title="Issue On Demand" description="">
+          <siteMapNode url="CreateIssueOnDemand.aspx" title="Create New" description="">
+            <siteMapNode url="ExternalPatient.aspx" title="External Patient" description=""></siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="Masters.aspx" title="Masters" description="">
+          <siteMapNode url="Generic.aspx" title="Generic" description="">
+            <siteMapNode url="CreateGeneric.aspx" title="Create New" description=""></siteMapNode>
+          </siteMapNode>
+          <siteMapNode url="Items.aspx" title="Items" description="">
+            <siteMapNode url="CreateItem.aspx" title="Create New" description=""></siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="PharmacyReports.aspx" title="Reports" description="">
+          <siteMapNode url="SaleReports.aspx" title="Sale Reports" description=""></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      
+      <siteMapNode url="Procurement.aspx" title="Procurement" description="">
+        <siteMapNode url="GRN.aspx" title="Good Receipt Notes" description="">
+          <siteMapNode url="CreateGRN.aspx" title="Create New" description=""></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode url="Inventory.aspx" title="Inventory" description="">
+        <siteMapNode url="StockIssue.aspx" title="Stock Issue" description=""></siteMapNode>
+        <siteMapNode url="Stores.aspx" title="Stores" description="">
+          <siteMapNode url="CreateStore.aspx" title="Create New" description=""></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="InventoryReports.aspx" title="Reports" description="">
+          <siteMapNode url="ReorderLevel.aspx" title="Reorder Level" description=""></siteMapNode>
+          <siteMapNode url="NearExpiry.aspx" title="Near Expiry" description=""></siteMapNode>
+          <siteMapNode url="StockLedger.aspx" title="Stock Ledger" description=""></siteMapNode>
+          <siteMapNode url="TransactionStock.aspx" title="Transaction Stock" description=""></siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      
+    </siteMapNode>
+</siteMap>
